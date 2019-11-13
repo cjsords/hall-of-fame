@@ -1,0 +1,8 @@
+<h2>Hall of Fame</h2>
+<table>
+  <tr *ngFor="let person of hallOfFamers.complete">
+    <td>{{ person.firstName }} {{ person.lastName }}</td>
+    <td>{{ person.innovation }}</td>
+    <td>{{ person.year }}</td>
+  </tr>
+</table>
